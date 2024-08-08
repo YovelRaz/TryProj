@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>מערכת ניהול - המרכז לכלבי נחייה</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=1024">
+    <!-- CSS -->
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+</head>
+<body id="bodyPlatform">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="HomePage.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="HomePage.html">דף הבית <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="AllProducts.html">לכל התוצרים</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Templates.html">תבניות</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MediaPage.html">ניהול מדיה</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ml-md-auto text-center">
+            <span class="navbar-text mr-3">שלום admin</span>
+            <a class="nav-link" href="#" id="logoutLink">להתנתקות</a>
+        </div>
+    </nav>
+
+
+    <div class="template-container container">
+        <h1>תבניות</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <h5 class="template-title">לומדת ״עיניים על ארבע״</h5>
+                <div class="card template-card">
+                    <div class="card-body">
+                        <!--<div class="iframe-wrapper">
+    <div class="card-body">-->
+                        <img src="images/entrance.jpeg" alt="Entrance" class="card-img">
+                    </div>
+                          <!--</div>-->
+                            <div class="d-flex justify-content-center">
+                                <div class="btnTemplate">
+                                <button id="duplicateUnitButton" class="btn custom-enter-button" onclick="duplicateUnit()">יצירת לומדה חדשה</button>
+</div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <!-- Modal settings -->
+    <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="settingsModalLabel">הגדרות לומדה</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="unitSettingsForm">
+                        <div class="mb-3">
+                            <label for="inputTitle" class="form-label">שם הלומדה</label>
+                            <input type="text" class="form-control" id="inputTitle">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputDescription" class="form-label">תיאור קצר</label>
+                            <textarea class="form-control" id="inputDescription" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="selectStatus" class="form-label">קטגוריה</label>
+                            <select class="form-select" id="selectStatus">
+                                <option selected>בחר אפשרות...</option>
+                                <option value="1">משפחות אומנה</option>
+                                <option value="2">מתנדבים</option>
+                                <option value="3">לקוחות</option>
+                                <option value="4">עובדי ארגון</option>
+                            </select>
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">סגור</button>
+                    <button type="button" class="btn custom-enter-button" id="saveChangesButton">שמור שינויים</button>
+                </div>
+                <div class="unit-success-message alert alert-success mt-2" role="alert" style="display: none">
+                    העריכה הושלמה בהצלחה
+                </div>
+                <div class="unit-error-message alert alert-danger mt-2" role="alert" style="display: none">
+                    נכשלה העריכה, אנא נסה שוב.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footerPlatform text-center  text-white">
+        <div class="container">
+            <div class="text-center p-3" style="background-color: #D2D6D5">
+                <div class="row">
+                    <div class="col-md-6 text-md-right">
+                        <span class="mr-3 footer-item">אודות</span>
+                        <span class="mr-3 footer-item">לאתר הארגון</span>
+                    </div>
+                    <div class="col-md-6 text-md-left">
+                        <span class="footer-item">© תוצר זה פותח במסגרת תואר ראשון בפקולטה לטכנולוגיות למידה, HIT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

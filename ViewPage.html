@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>מערכת ניהול - המרכז לכלבי נחייה</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=1024">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="Elearning/styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/javascriptPlatform.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Elearning/jScripts/javascript.js"></script>
+</head>
+<body id="bodyPlatform" onload="loadPageContent()">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Share button with an icon -->
+                <button id="shareButton" class="btn btn-sm custom-enter-button position-fixed top-0 end-2 m-1">
+                    <img src="images/send_2099085.png" alt="Share">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="shareModalLabel">שתפו את היחידה</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>הנה הלינק לצפייה בלומדה:</p>
+                    <input type="text" class="form-control" id="shareUrl" value="" readonly>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button onclick="copyUrl()" class="btn custom-enter-button">להעתקת ה URL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid ViewContainer">
+        <div class="row justify-content-center ViewRow">
+            <div class="col ViewCol">
+                <div class="cardView ViewCard">
+                    <div class="card-bodyView ViewCardBody">
+                        <div class="unit-container ViewUnitContainer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<div id="container" class="container">
+    <a href="#SkipH1" class="skip">דלג לתוכן</a>
+    <div id="topMenu">
+        <div id="logoDiv">
+            <img id="logoPic" src="images/logo1.png" alt="לוגו איש וכלב נחייה" />
+            <span id="logoName">עיניים על ארבע</span>
+        </div>
+
+        <div id="accessibilityDiv">
+            <div id="sizeDiv">
+                <span class="myli d-none d-sm-block size">גודל טקסט</span>
+                <button class="plus sizeBtn myli d-none d-sm-block" aria-label="הגדלת טקסט"></button>
+                <button class="minus sizeBtn myli d-none d-sm-block" aria-label="הקטנת טקסט"></button>
+            </div>
+            <div id="contrastDiv">
+                <span class="myli d-none d-sm-block contrast" aria-hidden="true">שינוי קונטרסט</span>
+                <button class="myli d-none d-sm-block contrastBtn" aria-label="שינוי קונטרסט"></button>
+            </div>
+            <div id="boldDiv">
+                <span class="myli d-none d-sm-block boldText" aria-hidden="true">הדגשת טקסט</span>
+                <button class="myli d-none d-sm-block boldTextBtn" aria-label="הדגשת טקסט"></button>
+            </div>
+        </div>
+        <div class="d-sm-none">
+            <button id="accBut" class="d-sm-none" aria-label="תפריט נגישות" data-toggle="modal" data-target="#accWindow"></button>
+        </div>
+
+    </div>
+    <div class="modal" id="accWindow" tabindex="-1" role="dialog" aria-labelledby="popupH2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="popupH2">תפריט נגישות</h2>
+                </div>
+                <div class="modal-body">
+                    <div id="sizeDivWin">
+                        <span id="sizeWin" class="size">גודל טקסט</span>
+                        <button class="plus sizeBtn" aria-label="הגדלת טקסט"></button>
+                        <button class="minus sizeBtn" aria-label="הקטנת טקסט"></button>
+                    </div>
+                    <div id="contrastDivWin">
+                        <span id="contrastWin" class="contrast" aria-hidden="true">שינוי קונטרסט</span>
+                        <button id="contrastBtnWin" class="contrastBtn" aria-label="שינוי קונטרסט"></button>
+                    </div>
+                    <div id="contrastDivWin">
+                        <span id="contrastWin" class="boldText" aria-hidden="true">הדגשת טקסט</span>
+                        <button id="contrastBtnWin" class="boldTextBtn" aria-label="הדגשת טקסט"></button>
+                    </div>
+                </div>
+                <button type="button" id="closeAccWin" class="close closeBut" data-dismiss="modal" aria-label="סגירה"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class="text-right col-12">
+        <h1 id="SkipH1">2.7 הסחות דעת</h1>
+        <div class="hidden">אתה נמצא כאן:</div>
+        <ul class="breadcrumbs">
+            <li><a href="home.html">מסך הבית</a></li>
+            <li><a href="contentCourse.html">2 תכני הקורס</a></li>
+            <li>2.7 הסחות דעת</li>
+        </ul>
+
+        <div class="col-sm-9 fixP">
+            <p>חלק חשוב מעבודת כלב נחייה היא התמודדות עם היסחים. בדיוק כמו שאנו כאנשים סורקים ללא הרף את סביבתנו, כך גם כלבי נחייה עוקבים אחר המתרחש בסביבתם.</p>
+            <p>זהו טבעי לחלוטין עבור כלב להבחין בגירויים שונים בסביבה: בעלי חיים אחרים, אנשים, אוכל, מראות, קולות וריחות - כל אלו עלולים למשוך את תשומת לבו ולהסיט אותה מעבודתו.</p>
+            <p>כאשר הדבר פוגע באיכות עבודת הנחייה זה הזמן להתערב. לפעמים תידרש רק הוראה מילולית פשוטה כדי להחזיר את הכלב למשימתו ולעיתים עליכם לנקוט בפעולה נוספת שתדרוש עצירה והחזרת הכלב לריכוז.</p>
+        </div>
+        <h2 class="toDo">לחצו לקבלת פירוט על השאלות שיכולות לעלות אצלכם:</h2>
+
+        <!--Accordion wrapper-->
+        <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+
+            <!-- Accordion card -->
+            <div class="card">
+
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="howToKnowDiv">
+                    <button class="collapsed accorBtns" data-toggle="collapse" data-parent="#accordionEx1" data-target="#howToKnowHeading"
+                            aria-expanded="false" aria-controls="howToKnowHeading">
+                        <h3 class="mb-0">איך נדע מתי הכלב מוסח?</h3>
+                    </button>
+                </div>
+
+                <!-- Card body -->
+                <div id="howToKnowHeading" class="collapse accorbody" role="tabpanel" aria-labelledby="howToKnowDiv"
+                     data-parent="#accordionEx1">
+                    <div class="card-body col-sm-9">
+                        <p>
+                            כאשר כלב נחייה מוסח, קרוב לוודאי שתבחינו בשינוי משמעותי ברמת האנרגיה שלו: עצירה או סיבוב פתאומיים, שינוי פתאומי בנתיב ההליכה, מבט נוקב וארוך הצידה או אחורה ומתח עודף בידית הרתמה.
+                        </p>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="highlightsDiv">
+                        <button class="collapsed accorBtns" data-toggle="collapse" data-parent="#accordionEx1" data-target="#highlightsHeading"
+                                aria-expanded="false" aria-controls="highlightsHeading">
+                            <h3 class="mb-0">מהם הדגשים לשליטה בכלב מול הסחות דעת?</h3>
+                        </button>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="highlightsHeading" class="collapse accorbody" role="tabpanel" aria-labelledby="highlightsDiv"
+                         data-parent="#accordionEx1">
+                        <div class="card-body col-sm-9">
+                            <ul>
+                                <li>פעלו בצורה פרואקטיבית בסביבת גירויים העלולים להסיח את דעת כלבכם.</li>
+                                <li>חזקו את כלבכם על בחירה נכונה.</li>
+                                <li>
+                                    בחרו את רמת השליטה בהתאם לנסיבות, כמו עוצמת הגירוי, עוצמת תגובת הכלב, המרחק מהגירוי ורגישות הכלב.<br />
+                                    <h4>פירוט רמות השליטה על פי עוצמתן מהקלה לחמורה:</h4>
+                                    <ol>
+                                        <li>סימן/פקודה קולית (ישר, האפ האפ).</li>
+                                        <li>העברת רצועה ליד ימין ללא תיקון.</li>
+                                        <li>סימן/פקודת קולר לפנים.</li>
+                                        <li>
+                                            פסק זמן ושלילת כל הזדמנות לחיזוק.
+                                            <button id="pauseBtn" class="liBtn" data-toggle="modal" data-target="#pauseWin" aria-label="מהו פסק זמן?"></button>
+                                        </li>
+                                        <li>
+                                            תיקון קולי או תיקון בעזרת ידית או רצועה.
+                                            <button id="fixingBtn" class="liBtn" data-toggle="modal" data-target="#fixingWin" aria-label="מהו תיקון?"></button>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Modal -->
+                <div class="modal fade definitionWin" id="pauseWin" tabindex="-1" role="dialog" aria-labelledby="pauseH2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pauseH2">מהו פסק זמן?</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p id="hotspotP">
+                                    עצירה פתאומית כאשר הכלב מוסח, תוך נקיטת שקט וללא תזוזה במשך עשר שניות, בהן נמנעים מלהתייחס לכלב.
+                                </p>
+                            </div>
+                            <button type="button" class="close closeBut closePopUp" data-dismiss="modal" aria-label="סגירה"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade definitionWin" id="fixingWin" tabindex="-1" role="dialog" aria-labelledby="fixingH2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="fixingH2">מהו תיקון?</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p id="hotspotP">
+                                    תיקון קולי הוא המילה "לא" הנאמרת בטון תקיף ונמוך ככל האפשר.
+                                </p>
+                                <p id="hotspotP">
+                                    תיקון רצועה הוא לחץ חד ופתאומי המופעל על הקולר אל צוואר הכלב דרך הרצועה ושחרורו המיידי. יש להפעילו בצורה חדה מיד לאחר שהכלב טועה.
+                                </p>
+                            </div>
+                            <button type="button" class="close closeBut closePopUp" data-dismiss="modal" aria-label="סגירה"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="approachesDiv">
+                        <button class="collapsed accorBtns" data-toggle="collapse" data-parent="#accordionEx1" data-target="#approachesHeading"
+                                aria-expanded="false" aria-controls="approachesHeading">
+                            <h3 class="mb-0">מהן הגישות לשליטה בכלב?</h3>
+                        </button>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="approachesHeading" class="collapse accorbody" role="tabpanel" aria-labelledby="approachesDiv"
+                         data-parent="#accordionEx1">
+                        <div class="card-body col-sm-9">
+                            <h4>כלבי נחייה מאומנים בשלוש טכניקות שליטה בסיסיות:</h4>
+                            <ul>
+                                <li>"חיזוק חיובי" - הוספה של משהו שהכלב חושק בו, כמו אוכל, כדי לעודד את הכלב לחזור על התנהגות רצויה.</li>
+                                <li>"ענישה שלילית" - הסרה מתוזמנת וקצרה של כל אפשרות לחיזוק. כאשר כלב רגיל לקבל חיזוקים בעבודתו, מניעה של אלו יכולה להיות יעילה מאוד ולמנוע ממנו לבצע התנהגויות שאינן רצויות.</li>
+                                <li>"ענישה חיובית" - הוספה של משהו לא נעים לכלב מיד לאחר ההתנהגות אותה אנו רוצים למנוע. הענישה מתבצעת באמצעות תיקון קולי, דרך הידית או תיקון רצועה.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Accordion card -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    <div id="arrows">
+        <button id="backBtn" type="button" aria-label="אחורה" onClick="navigatePagePre()"></button>
+        <span id="backText" class="clickText" aria-hidden="true" onClick="navigatePagePre()">אחורה</span>
+        <button id="forwardBtn" type="button" aria-label="קדימה" onClick="navigatePageNext()"></button>
+        <span id="forwardText" class="clickText" aria-hidden="true" onClick="navigatePageNext()">קדימה</span>
+    </div>
+    <div id="hitFooter">
+        <p id="hitFooterP">תוצר זה פותח במסגרת תואר ראשון ב<a class="myLinks" target="_blank" href="https://www.hit.ac.il/telem/B.A">פקולטה לטכנולוגיות למידה, HIT</a> | <button id="aboutBtn" data-toggle="modal" data-target="#aboutWin">אודות</button></p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="aboutWin" tabindex="-1" role="dialog" aria-labelledby="aboutH2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="aboutH2">אודות</h2>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p class="aboutP">
+                            <span id="aboutName" class="myBold">עיניים על ארבע</span><br />
+                            מדריך לנעזרים בכלב נחייה
+                        </p>
+                    </div>
+                    <div>
+                        <p class="aboutP">
+                            פרויקט גמר, תשע&quot;ט<br />
+                            <a id="popupLink" class="myLinks" target="_blank" href="https://www.hit.ac.il/telem/B.A">הפקולטה לטכנולוגיות למידה</a>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 my6">
+                            <img id="logoTLM" src="images/logoTLM.gif" alt="לוגו הפקולטה לטכנולוגיות למידה, מכון טכנולוגי חולון" />
+                        </div>
+                        <div class="col-sm-7">
+                            <p id="almogAdi" class="myRight aboutP">
+                                <span class="myBold">צוות הפרוייקט:</span><br />
+                                אלמוג חי ועדי אלי
+                            </p>
+                            <p class="myRight aboutP">
+                                <span class="myBold">מנחות:</span><br />
+                                ד"ר היילי וייגלט-מרום ובר שבתאי
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 my6">
+                            <img id="logoGuideDog" src="images/guideDogLogo.png" alt="לוגו מרכז ישראלי לכלבי נחייה" />
+                        </div>
+                        <div class="col-sm-7">
+                            <p id="textGuideDog" class="myRight aboutP">
+                                בשיתוף עם מרכז ישראלי לכלבי נחייה<br />
+                                נציג הארגון: עמי תורן
+                            </p>
+                        </div>
+                    </div>
+                    <p id="copy">&copy; כל הזכויות שמורות למכון טכנולוגי חולון HIT</p>
+                </div>
+                <button id="cloaseAbout" type="button" class="close closeBut closePopUp" data-dismiss="modal" aria-label="סגירה"></button>
+            </div>
+        </div>
+    </div> <!-- Modal -->
+</div>

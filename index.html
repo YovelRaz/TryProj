@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="">
+
+
+<head>
+
+    <title>עיניים על ארבע</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="מסך כניסה ללומדה עיניים על ארבע" />
+    <meta name="keywords" content="עיניים על ארבע ,לומדה, עיוורים, לקויי ראייה, כלבי נחייה" />
+    <link rel="shortcut icon" type="image/png" href="images//favicon.png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <script src="jScripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+</head>
+<body>
+    <div id="enterContainer" class="container">
+        <a href="#name" class="skip">דלג לתוכן</a>
+        <div id="enterTopMenu"> </div>
+        <div id="allEnter">
+            <img src="images/logo1.png" id="logoEnter" alt="לוגו איש וכלב נחייה" />
+            <div id="enterDiv">
+                <h1 id="name">עיניים על ארבע</h1>
+                <p id="explaination">מדריך לנעזרים בכלב נחייה</p>
+            </div>
+        </div>
+
+        <div id="EnterMenu">
+        </div>
+        <button id="enterBut" aria-label="כניסה ללומדה" onClick="location.href = 'welcome.html'">כניסה</button>
+
+        <div id="hitFooter">
+            <p id="hitFooterP">תוצר זה פותח במסגרת תואר ראשון ב<a class="myLinks" target="_blank" href="https://www.hit.ac.il/telem/B.A">פקולטה לטכנולוגיות למידה, HIT</a> | <button id="aboutBtn" data-toggle="modal" data-target="#aboutWin">אודות</button></p>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="aboutWin" tabindex="-1" role="dialog" aria-labelledby="aboutH2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="aboutH2">אודות</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="aboutP">
+                                <span id="aboutName" class="myBold">עיניים על ארבע</span><br />
+                                מדריך לנעזרים בכלב נחייה
+                            </p>
+                        </div>
+                        <div>
+                            <p class="aboutP">
+                                פרויקט גמר, תשע&quot;ט<br />
+                                <a id="popupLink" class="myLinks" target="_blank" href="https://www.hit.ac.il/telem/B.A">הפקולטה לטכנולוגיות למידה</a>
+                            </p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-3 my6">
+                                <img id="logoTLM" src="images/logoTLM.gif" alt="לוגו הפקולטה לטכנולוגיות למידה, מכון טכנולוגי חולון" />
+                            </div>
+                            <div class="col-sm-7">
+                                <p id="almogAdi" class="myRight aboutP">
+                                    <span class="myBold">צוות הפרוייקט:</span><br />
+                                    אלמוג חי ועדי אלי
+                                </p>
+                                <p class="myRight aboutP">
+                                    <span class="myBold">מנחות:</span><br />
+                                    ד"ר היילי וייגלט-מרום ובר שבתאי
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-3 my6">
+                                <img id="logoGuideDog" src="images/guideDogLogo.png" alt="לוגו מרכז ישראלי לכלבי נחייה" />
+                            </div>
+                            <div class="col-sm-7">
+                                <p id="textGuideDog" class="myRight aboutP">
+                                    בשיתוף עם מרכז ישראלי לכלבי נחייה<br />
+                                    נציג הארגון: עמי תורן
+                                </p>
+                            </div>
+                        </div>
+                        <p id="copy">&copy; כל הזכויות שמורות למכון טכנולוגי חולון HIT</p>
+                    </div>
+                    <button id="cloaseAbout" type="button" class="close closeBut closePopUp" data-dismiss="modal" aria-label="סגירה"></button>
+                </div>
+            </div>
+        </div> <!-- Modal -->
+    </div>
+</body>
+</html>
