@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/Prog3_WebApi_Javascript.csproj": {}
+  },
+  "projects": {
+    "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/Prog3_WebApi_Javascript.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/Prog3_WebApi_Javascript.csproj",
+        "projectName": "Prog3_WebApi_Javascript",
+        "projectPath": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/Prog3_WebApi_Javascript.csproj",
+        "packagesPath": "/Users/yovelraz/.nuget/packages/",
+        "outputPath": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yovelraz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.316/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.AspNetCore.NodeServices": {
+              "target": "Package",
+              "version": "[5.0.0-preview.8.20414.8, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-preview.4.24267.1, )"
+            },
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Npm": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

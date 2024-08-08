@@ -1,0 +1,897 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/AllProducts.html",
+      "PackagePath": "staticwebassets/AllProducts.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/ChoosePage.html",
+      "PackagePath": "staticwebassets/ChoosePage.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/EditPage.html",
+      "PackagePath": "staticwebassets/EditPage.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/.DS_Store",
+      "PackagePath": "staticwebassets/Elearning/.DS_Store"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/aside.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/aside.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/aside.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/aside.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/backCommand.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/backCommand.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/backCommand.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/backCommand.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/forwardCommand.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/forwardCommand.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/forwardCommand.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/forwardCommand.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/inside.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/inside.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/inside.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/inside.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/slow.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/slow.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/slow.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/slow.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/stand.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/stand.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/stand.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/stand.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/start.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/start.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/start.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/start.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/story.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/story.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/story.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/story.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/turnRight.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/turnRight.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/turnRight.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/turnRight.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/turnleft.mp3",
+      "PackagePath": "staticwebassets/Elearning/audio/turnleft.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/audio/turnleft.ogg",
+      "PackagePath": "staticwebassets/Elearning/audio/turnleft.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/Elearning/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/Elearning/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/Elearning/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/Elearning/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/jScripts/JavaScript.js",
+      "PackagePath": "staticwebassets/Elearning/jScripts/JavaScript.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/jScripts/jquery-1.12.0.min.js",
+      "PackagePath": "staticwebassets/Elearning/jScripts/jquery-1.12.0.min.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/styles/myStyle.css",
+      "PackagePath": "staticwebassets/Elearning/styles/myStyle.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Elearning/styles/reset.css",
+      "PackagePath": "staticwebassets/Elearning/styles/reset.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/HomePage.html",
+      "PackagePath": "staticwebassets/HomePage.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/MediaPage.html",
+      "PackagePath": "staticwebassets/MediaPage.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/PagesOfUnit.html",
+      "PackagePath": "staticwebassets/PagesOfUnit.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/Templates.html",
+      "PackagePath": "staticwebassets/Templates.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/ViewPage.html",
+      "PackagePath": "staticwebassets/ViewPage.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/audio/story.mp3",
+      "PackagePath": "staticwebassets/audio/story.mp3"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/audio/story.ogg",
+      "PackagePath": "staticwebassets/audio/story.ogg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Black.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Black.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Bold.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Bold.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-ExtraBold.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-ExtraBold.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-ExtraLight.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-ExtraLight.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Light.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Light.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Medium.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Medium.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Regular.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Regular.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-SemiBold.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-SemiBold.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/otf/Heebo-Thin.otf",
+      "PackagePath": "staticwebassets/fonts/otf/Heebo-Thin.otf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Black.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Bold.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-ExtraBold.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-ExtraLight.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Light.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Medium.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Regular.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-SemiBold.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/ttf/Heebo-Thin.ttf",
+      "PackagePath": "staticwebassets/fonts/ttf/Heebo-Thin.ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/variable/Heebo[wght].ttf",
+      "PackagePath": "staticwebassets/fonts/variable/Heebo[wght].ttf"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Black.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Black.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Bold.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Bold.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-ExtraBold.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-ExtraBold.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-ExtraLight.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-ExtraLight.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Light.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Light.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Medium.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Medium.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Regular.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Regular.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-SemiBold.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-SemiBold.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo-Thin.woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo-Thin.woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/fonts/webfonts/Heebo[wght].woff2",
+      "PackagePath": "staticwebassets/fonts/webfonts/Heebo[wght].woff2"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/DogControlLogo.png",
+      "PackagePath": "staticwebassets/images/DogControlLogo.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/Left.png",
+      "PackagePath": "staticwebassets/images/Left.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/MinusText.png",
+      "PackagePath": "staticwebassets/images/MinusText.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/about.png",
+      "PackagePath": "staticwebassets/images/about.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/accessibility.png",
+      "PackagePath": "staticwebassets/images/accessibility.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/arrow.jpg",
+      "PackagePath": "staticwebassets/images/arrow.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/back.png",
+      "PackagePath": "staticwebassets/images/back.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/backHome.png",
+      "PackagePath": "staticwebassets/images/backHome.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/backHomeMoment.png",
+      "PackagePath": "staticwebassets/images/backHomeMoment.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/bathroom.jpg",
+      "PackagePath": "staticwebassets/images/bathroom.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/bed.jpg",
+      "PackagePath": "staticwebassets/images/bed.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/boldText.png",
+      "PackagePath": "staticwebassets/images/boldText.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/bowl.png",
+      "PackagePath": "staticwebassets/images/bowl.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/bowlPopUp.jpg",
+      "PackagePath": "staticwebassets/images/bowlPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/breeds.png",
+      "PackagePath": "staticwebassets/images/breeds.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/brush.png",
+      "PackagePath": "staticwebassets/images/brush.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/brushPopUp.jpg",
+      "PackagePath": "staticwebassets/images/brushPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/bus.png",
+      "PackagePath": "staticwebassets/images/bus.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/carpet.png",
+      "PackagePath": "staticwebassets/images/carpet.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/carpetPopUp.jpg",
+      "PackagePath": "staticwebassets/images/carpetPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/chocolate.jpg",
+      "PackagePath": "staticwebassets/images/chocolate.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/chocolate.png",
+      "PackagePath": "staticwebassets/images/chocolate.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/clicker.png",
+      "PackagePath": "staticwebassets/images/clicker.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/clickerPopUp.jpg",
+      "PackagePath": "staticwebassets/images/clickerPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/clickerTraining.png",
+      "PackagePath": "staticwebassets/images/clickerTraining.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/close.png",
+      "PackagePath": "staticwebassets/images/close.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/conditions.png",
+      "PackagePath": "staticwebassets/images/conditions.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/contrsat.png",
+      "PackagePath": "staticwebassets/images/contrsat.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/courseContent.png",
+      "PackagePath": "staticwebassets/images/courseContent.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/cup.png",
+      "PackagePath": "staticwebassets/images/cup.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/cupPopUp.jpg",
+      "PackagePath": "staticwebassets/images/cupPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/dailyTreatment.png",
+      "PackagePath": "staticwebassets/images/dailyTreatment.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/darkWalk.png",
+      "PackagePath": "staticwebassets/images/darkWalk.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/desk.jpg",
+      "PackagePath": "staticwebassets/images/desk.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/directionCommands.png",
+      "PackagePath": "staticwebassets/images/directionCommands.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/discipline.png",
+      "PackagePath": "staticwebassets/images/discipline.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/distractions.png",
+      "PackagePath": "staticwebassets/images/distractions.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/dogCare.png",
+      "PackagePath": "staticwebassets/images/dogCare.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/dogInfo.png",
+      "PackagePath": "staticwebassets/images/dogInfo.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/dogSenses.png",
+      "PackagePath": "staticwebassets/images/dogSenses.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/eggsMeat.jpg",
+      "PackagePath": "staticwebassets/images/eggsMeat.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/eggsMeat.png",
+      "PackagePath": "staticwebassets/images/eggsMeat.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/enter.png",
+      "PackagePath": "staticwebassets/images/enter.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/entrance.jpeg",
+      "PackagePath": "staticwebassets/images/entrance.jpeg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/equipment.png",
+      "PackagePath": "staticwebassets/images/equipment.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/feeding.png",
+      "PackagePath": "staticwebassets/images/feeding.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/firstDays.png",
+      "PackagePath": "staticwebassets/images/firstDays.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/flight.png",
+      "PackagePath": "staticwebassets/images/flight.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/footer.png",
+      "PackagePath": "staticwebassets/images/footer.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/footerEnter.png",
+      "PackagePath": "staticwebassets/images/footerEnter.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/forbiddenFood.png",
+      "PackagePath": "staticwebassets/images/forbiddenFood.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/forward.png",
+      "PackagePath": "staticwebassets/images/forward.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/garlicOnion.jpg",
+      "PackagePath": "staticwebassets/images/garlicOnion.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/garlicOnion.png",
+      "PackagePath": "staticwebassets/images/garlicOnion.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/gentleLeader.png",
+      "PackagePath": "staticwebassets/images/gentleLeader.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/gentleLeaderPopUp.jpg",
+      "PackagePath": "staticwebassets/images/gentleLeaderPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/germanShepherd.jpg",
+      "PackagePath": "staticwebassets/images/germanShepherd.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/germanShepherd.png",
+      "PackagePath": "staticwebassets/images/germanShepherd.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/getDog.png",
+      "PackagePath": "staticwebassets/images/getDog.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/golden.jpg",
+      "PackagePath": "staticwebassets/images/golden.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/golden.png",
+      "PackagePath": "staticwebassets/images/golden.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/grapes.jpg",
+      "PackagePath": "staticwebassets/images/grapes.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/grapes.png",
+      "PackagePath": "staticwebassets/images/grapes.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/guideDogLogo.png",
+      "PackagePath": "staticwebassets/images/guideDogLogo.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/handle.png",
+      "PackagePath": "staticwebassets/images/handle.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/harness.png",
+      "PackagePath": "staticwebassets/images/harness.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/harnessPopUp.jpg",
+      "PackagePath": "staticwebassets/images/harnessPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/hearing.png",
+      "PackagePath": "staticwebassets/images/hearing.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/homeVisits.png",
+      "PackagePath": "staticwebassets/images/homeVisits.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/hotspot.png",
+      "PackagePath": "staticwebassets/images/hotspot.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/inside.png",
+      "PackagePath": "staticwebassets/images/inside.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/knowCampus.png",
+      "PackagePath": "staticwebassets/images/knowCampus.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/knowRoom.png",
+      "PackagePath": "staticwebassets/images/knowRoom.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/labrador.jpg",
+      "PackagePath": "staticwebassets/images/labrador.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/labrador.png",
+      "PackagePath": "staticwebassets/images/labrador.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/leather.png",
+      "PackagePath": "staticwebassets/images/leather.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/leatherPopUp.jpg",
+      "PackagePath": "staticwebassets/images/leatherPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/lifeDog.png",
+      "PackagePath": "staticwebassets/images/lifeDog.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/liver.jpg",
+      "PackagePath": "staticwebassets/images/liver.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/liver.png",
+      "PackagePath": "staticwebassets/images/liver.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/logo1.png",
+      "PackagePath": "staticwebassets/images/logo1.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/logoContrast.png",
+      "PackagePath": "staticwebassets/images/logoContrast.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/logoTLM.gif",
+      "PackagePath": "staticwebassets/images/logoTLM.gif"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/mail.png",
+      "PackagePath": "staticwebassets/images/mail.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/mall.png",
+      "PackagePath": "staticwebassets/images/mall.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/martingale.png",
+      "PackagePath": "staticwebassets/images/martingale.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/martingalePopUp.jpg",
+      "PackagePath": "staticwebassets/images/martingalePopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/meeting.png",
+      "PackagePath": "staticwebassets/images/meeting.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/milk.jpg",
+      "PackagePath": "staticwebassets/images/milk.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/milk.png",
+      "PackagePath": "staticwebassets/images/milk.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/mixed.jpg",
+      "PackagePath": "staticwebassets/images/mixed.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/mixed.png",
+      "PackagePath": "staticwebassets/images/mixed.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/noSidewalk.png",
+      "PackagePath": "staticwebassets/images/noSidewalk.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/nutrition.png",
+      "PackagePath": "staticwebassets/images/nutrition.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/nuts.jpg",
+      "PackagePath": "staticwebassets/images/nuts.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/nuts.png",
+      "PackagePath": "staticwebassets/images/nuts.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/obstacles.png",
+      "PackagePath": "staticwebassets/images/obstacles.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/obstaclesWork.png",
+      "PackagePath": "staticwebassets/images/obstaclesWork.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/orientation.png",
+      "PackagePath": "staticwebassets/images/orientation.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/phenomena.png",
+      "PackagePath": "staticwebassets/images/phenomena.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/pickUp.png",
+      "PackagePath": "staticwebassets/images/pickUp.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/play2.png",
+      "PackagePath": "staticwebassets/images/play2.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/plusText.png",
+      "PackagePath": "staticwebassets/images/plusText.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/pouch.png",
+      "PackagePath": "staticwebassets/images/pouch.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/pouchPopUp.jpg",
+      "PackagePath": "staticwebassets/images/pouchPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/prepareCourse.png",
+      "PackagePath": "staticwebassets/images/prepareCourse.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/prepareMantally.png",
+      "PackagePath": "staticwebassets/images/prepareMantally.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/prepareOrientation.png",
+      "PackagePath": "staticwebassets/images/prepareOrientation.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/public.png",
+      "PackagePath": "staticwebassets/images/public.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/questionMark.png",
+      "PackagePath": "staticwebassets/images/questionMark.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/right.png",
+      "PackagePath": "staticwebassets/images/right.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/room.png",
+      "PackagePath": "staticwebassets/images/room.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/rules.png",
+      "PackagePath": "staticwebassets/images/rules.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/running.png",
+      "PackagePath": "staticwebassets/images/running.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/send_2099085.png",
+      "PackagePath": "staticwebassets/images/send_2099085.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/services.png",
+      "PackagePath": "staticwebassets/images/services.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/sidewalkBlocker.png",
+      "PackagePath": "staticwebassets/images/sidewalkBlocker.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/sight.png",
+      "PackagePath": "staticwebassets/images/sight.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/sinus.png",
+      "PackagePath": "staticwebassets/images/sinus.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/smell.png",
+      "PackagePath": "staticwebassets/images/smell.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/staff.png",
+      "PackagePath": "staticwebassets/images/staff.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/straightLine.png",
+      "PackagePath": "staticwebassets/images/straightLine.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/support.png",
+      "PackagePath": "staticwebassets/images/support.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/taxi.png",
+      "PackagePath": "staticwebassets/images/taxi.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/tips.png",
+      "PackagePath": "staticwebassets/images/tips.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/topMenu.png",
+      "PackagePath": "staticwebassets/images/topMenu.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/topMenuEnter.png",
+      "PackagePath": "staticwebassets/images/topMenuEnter.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/traffic.png",
+      "PackagePath": "staticwebassets/images/traffic.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/train.png",
+      "PackagePath": "staticwebassets/images/train.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/tying.png",
+      "PackagePath": "staticwebassets/images/tying.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/tyingPopUp.jpg",
+      "PackagePath": "staticwebassets/images/tyingPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/vest.png",
+      "PackagePath": "staticwebassets/images/vest.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/vestPopUp.jpg",
+      "PackagePath": "staticwebassets/images/vestPopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/vetTreatment.png",
+      "PackagePath": "staticwebassets/images/vetTreatment.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/waterware.png",
+      "PackagePath": "staticwebassets/images/waterware.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/waterwarePopUp.jpg",
+      "PackagePath": "staticwebassets/images/waterwarePopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/whatsApp.png",
+      "PackagePath": "staticwebassets/images/whatsApp.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/whistle.png",
+      "PackagePath": "staticwebassets/images/whistle.png"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/images/whistlePopUp.jpg",
+      "PackagePath": "staticwebassets/images/whistlePopUp.jpg"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/js/javascript.js",
+      "PackagePath": "staticwebassets/js/javascript.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/js/javascriptPlatform.js",
+      "PackagePath": "staticwebassets/js/javascriptPlatform.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/js/javascript_openai.js",
+      "PackagePath": "staticwebassets/js/javascript_openai.js"
+    },
+    {
+      "Id": "/Users/yovelraz/Desktop/תואר ראשון/שנה ג/פרויקט גמר/GuideDogsPlatformWbackAdiv 2/wwwroot/logIn.html",
+      "PackagePath": "staticwebassets/logIn.html"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Prog3_WebApi_Javascript.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Prog3_WebApi_Javascript.props",
+      "PackagePath": "build\\Prog3_WebApi_Javascript.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Prog3_WebApi_Javascript.props",
+      "PackagePath": "buildMultiTargeting\\Prog3_WebApi_Javascript.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Prog3_WebApi_Javascript.props",
+      "PackagePath": "buildTransitive\\Prog3_WebApi_Javascript.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

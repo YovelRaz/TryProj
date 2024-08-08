@@ -1,0 +1,2772 @@
+﻿
+body {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    background-color: #eae9e7;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    padding: 0;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+h2, h3, h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.test {
+    opacity: 0;
+}
+
+#enterContainer {
+    padding: 0;
+    direction: rtl;
+/*    min-height: 100%;*/
+    overflow: hidden;
+    position: relative;
+    background-color: floralwhite;
+}
+
+.hidden {
+    /*position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;*/
+    position: absolute;
+    top: -1000px;
+    right: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.skip {
+    position: absolute;
+    top: -1000px;
+    right: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skip:active,
+a.skip:focus,
+a.skip:hover {
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 26%;
+    height: 48px;
+    overflow: visible;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    z-index: 1000;
+    font-size: 19pt;
+}
+
+/*תפריט ניווט*/
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('/images/accessibility.png');
+}
+
+#enterTopMenu {
+    background-image: url('/images/topMenuEnter.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    padding-top: 5px;
+    padding-right: 5px;
+    z-index: 100;
+/*    position: fixed;*/
+    top: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+#topMenu {
+    background-image: url('/images/topMenu.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    padding-top: 5px;
+    padding-right: 5px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#topMenu {
+    background-image: url('/images/topMenu.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    padding-top: 5px;
+    padding-right: 5px;
+    z-index: 10; /* Adjust z-index as needed */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+#hitFooter {
+    position: fixed;
+    width: 100%;
+    z-index: 1031;
+    bottom: 0;
+    text-align: center;
+    height: 24px;
+    border-top: 1px black solid;
+    background-color: #eae9e7;
+}*/
+
+
+#hitFooter {
+    width: 100%;
+    z-index: 1031; /* Adjust z-index as needed */
+    text-align: center;
+    height: 24px;
+    border-top: 1px black solid;
+    background-color: #eae9e7;
+    /* Remove position: fixed; */
+    /* Remove bottom: 0; */
+}
+
+
+#hitFooterP {
+    font-size: 1.8vh;
+    margin-bottom: 1px;
+}
+
+/*תפריט כניסה תחתון*/
+#EnterMenu {
+    background-image: url('/images/footerEnter.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+/*    position: fixed;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1030;
+    bottom: 24px;
+    height: 50px;
+}
+
+#enterBut {
+    background: url(/images/enter.png);
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    border: none;
+    background-size: 218px;
+    background-repeat: no-repeat;
+    font-size: 16pt;
+    padding: 0px 7px 18px;
+    position: absolute;
+    display: inherit;
+    margin: auto;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1031;
+}
+
+    #enterBut:hover {
+        background-position-x: -106px;
+    }
+
+    #enterBut span {
+        pointer-events: auto;
+    }
+
+.myHidden {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10em;
+}
+
+#aboutBut {
+    display: inline-block;
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-top: -28px;
+    background: url(/images/about.png);
+    background-position-x: 10px;
+    border: none;
+    background-size: 590px;
+    color: white;
+    padding-bottom: 12px;
+    padding-left: 9px;
+}
+
+    #aboutBut:hover {
+        background-position-x: -150px;
+    }
+
+
+.myli {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.size {
+    color: #1d3666;
+    width: 42px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    margin-left: -9px;
+    font-size: 16px;
+}
+
+.sizeBtn {
+    height: 28px;
+    margin-top: 7px;
+    padding-top: 1px;
+    margin-right: 8px;
+}
+
+.plus {
+    width: 56px;
+    height: 60px;
+    margin-top: -16px;
+    background: url(/images/plusText.png);
+    border: none;
+    background-size: 415px;
+    background-position-x: -40px;
+}
+
+    .plus:hover {
+        background-position-x: -124px;
+    }
+
+.minus {
+    width: 56px;
+    height: 60px;
+    margin-top: -16px;
+    background: url(/images/MinusText.png);
+    border: none;
+    background-size: 415px;
+    background-position-x: -40px;
+    position: relative;
+    margin-right: -18px;
+}
+
+    .minus:hover {
+        background-position-x: -124px;
+    }
+
+.contrast {
+    color: #1d3666;
+    width: 57px;
+    line-height: 20px;
+    margin-left: -24px;
+    margin-right: 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.boldText {
+    color: #1d3666;
+    width: 53px;
+    line-height: 20px;
+    margin-left: -24px;
+    margin-right: 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contrastBtn {
+    width: 56px;
+    height: 60px;
+    margin-top: -16px;
+    background: url(/images/contrsat.png);
+    border: none;
+    background-size: 415px;
+    background-position-x: -41px;
+    position: relative;
+    margin-right: 22px;
+}
+
+    .contrastBtn:hover {
+        background-position-x: -125px;
+    }
+
+.boldTextBtn {
+    width: 56px;
+    height: 60px;
+    margin-top: -16px;
+    background: url(/images/boldText.png);
+    border: none;
+    background-size: 850px;
+    background-position-x: -42px;
+    position: relative;
+    margin-right: 22px;
+}
+
+    .boldTextBtn:hover {
+        background-position-x: -127.5px;
+    }
+
+.boldDiv {
+    position: absolute;
+    left: 0;
+}
+
+.contrastDiv {
+    position: absolute;
+    left: 116px;
+}
+
+.sizeDiv {
+    position: absolute;
+    left: 228px;
+}
+
+#accessibilityDiv {
+    width: 435px;
+    float: left;
+    margin-top: 7px;
+}
+
+#accWindow {
+    -moz-box-shadow: 0px 6px 34px -11px rgba(0,0,0,0.75);
+    position: fixed;
+    margin-top: 90px;
+    color: #1d3666;
+}
+
+
+#popupH2 {
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+}
+
+#sizeWin {
+    margin-top: 54px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#contrastWin {
+    display: block;
+    width: 96px;
+    text-align: center;
+    margin: auto;
+    margin-top: 27px;
+}
+
+#closeAboutWin {
+    display: inline-block;
+    float: right;
+}
+
+#sizeDivWin {
+    text-align: center;
+    margin: auto;
+}
+
+    #sizeDivWin button {
+        margin-top: -4px;
+    }
+
+#contrastDivWin {
+    text-align: center;
+}
+
+#contrastBtnWin {
+    margin: auto;
+    margin-top: -4px;
+}
+
+#accBut {
+    float: left;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: url(/images/accessibility.png);
+    background-position-x: 10px;
+    border: none;
+    background-size: 590px;
+    top: -22px;
+    left: 0;
+}
+
+    #accBut:hover {
+        background-position-x: -151px;
+    }
+
+#enterAccBut {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-top: -105px;
+    margin-right: 83px;
+    background: url(/images/accessibility.png);
+    background-position-x: 10px;
+    border: none;
+    background-size: 590px;
+}
+
+enterAccBut:hover {
+    background-position-x: -150px;
+}
+
+
+.closeBut {
+    width: 56px;
+    height: 44px;
+    background: url(/images/close.png);
+    background-position-x: 0px;
+    border: none;
+    background-size: 220px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+
+    .closeBut:hover {
+        background-position-x: -56px;
+    }
+
+
+/*כותרת כניסה*/
+#name {
+    margin-top: 5px;
+    font-size: 54px;
+    margin-bottom: -3px;
+    text-align: right;
+}
+
+#explaination {
+    font-size: 31.5px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+#enterDiv {
+    color: #1d3666;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    width: 345px;
+    display: block;
+    margin: auto;
+}
+
+#logoEnter {
+    width: 210px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#allEnter {
+    /*margin-top: 7%;*/
+}
+
+#namePic {
+    text-align: center;
+    margin: auto;
+    width: 346px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*לוגו*/
+
+#logoDiv {
+    float: right;
+}
+
+#logoName {
+    width: 69px;
+    display: inline-block;
+    color: #1d3666;
+    text-align: center;
+    font-weight: bold;
+}
+
+#logoPic {
+    width: 50px;
+    display: inline-block;
+    margin-top: -26px;
+}
+
+/*אקורדיון*/
+.mb-0 {
+    color: #1D3666;
+    font-size: 20px;
+    padding-right: 25px;
+    text-align: right;
+    font-weight: normal;
+}
+
+    .mb-0:hover {
+        text-decoration: underline solid;
+    }
+
+.accorBtns {
+    border: none;
+    background-color: transparent;
+}
+
+.card {
+    border: none;
+    background-color: #eae9e7;
+}
+
+.card-header > button:before {
+    float: right !important;
+    content: "\2013";
+    /*color: #1D3666;*/
+    color: inherit !important;
+    font-size: 27px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: -6px;
+    right: 20px;
+}
+
+
+.card-header > button.collapsed:before {
+    float: right !important;
+    content: "+";
+}
+
+.accorbody {
+    background-color: white;
+}
+
+#accordionEx1 {
+    margin-bottom: 20px;
+}
+
+/*מבוא*/
+#myH1 {
+    margin-right: 10px;
+    margin-bottom: 12px;
+    display: block;
+    text-align: right;
+    margin-top: 70px;
+}
+
+
+#WelcomeTxt {
+    margin-top: 30px;
+    font-size: large;
+}
+
+#instructions {
+    margin-top: 155px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+/*
+.footer {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1030;
+    bottom: 23px;
+    background-image: url('/images/footer.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}*/
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1030; /* Adjust z-index as needed */
+    background-image: url('/images/footer.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.clickText, button {
+    cursor: pointer;
+}
+
+#content {
+    padding-bottom: 80px;
+    direction: rtl;
+    color: #1d3666;
+    font-size: 21px;
+}
+
+
+
+#SkipH1 {
+    margin-top: 85px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+
+/*פוטר*/
+#backBtn {
+    float: right;
+    width: 50px;
+    height: 63px;
+    background: url(/images/back.png);
+    border: none;
+    background-size: 206px;
+    background-position-x: -0.5px;
+}
+
+    #backBtn:hover {
+        background-position-x: -52px;
+    }
+
+#backText {
+    float: right;
+    margin-top: 30px;
+}
+
+#forwardBtn {
+    float: left;
+    width: 47px;
+    height: 63px;
+    background: url(/images/forward.png);
+    border: none;
+    background-size: 206px;
+    /*background-position-x: -0.5px;*/
+}
+
+    #forwardBtn:hover {
+        background-position-x: -52px;
+    }
+
+#forwardText {
+    float: left;
+    margin-top: 30px;
+}
+
+#arrows {
+    color: #1d3666;
+    z-index: 2000; /* Adjust z-index as needed */
+    height: 64px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* bottom: 24px; Remove this line */
+}
+
+
+/*
+#arrows {
+    color: #1d3666;
+    z-index: 2000;
+    height: 64px;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 24px;
+}
+*/
+
+/*מסך אודות*/
+#HitLogo {
+    width: 123px;
+    /* float: right; */
+    /* margin-top: -90px; */
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+}
+
+#odotH {
+    text-align: right;
+    font-size: 14pt;
+}
+
+#nameP {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#nameExp {
+    margin-top: -15px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#projectA {
+    text-align: center;
+    /* margin: auto; */
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+    /* Add a color on mouse-over */
+    #projectA:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+#projectH {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#hitDiv {
+    text-align: center;
+    position: relative;
+}
+
+#team {
+    text-align: right;
+    margin-top: 32px;
+    display: inline-block;
+    /* position: sticky; */
+    margin-right: 131px;
+}
+
+#guideDogCenter {
+    text-align: right;
+}
+
+#googleMap {
+    width: 100%;
+    height: 250px;
+}
+
+/*מסך הבית*/
+.chapters {
+    width: 90%;
+    height: 86%;
+    margin: auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+/*.myRow {
+    padding: 30px;
+}*/
+
+.myRow div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toDo {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#prepareCourseBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/prepareCourse.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #prepareCourseBtn:hover {
+        background-position-x: -107px;
+    }
+
+#courseContentBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/courseContent.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #courseContentBtn:hover {
+        background-position-x: -107px;
+    }
+
+#lifeDogBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/lifeDog.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #lifeDogBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+/*עמוד הכנה לקורס*/
+#tipsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/tips.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #tipsBtn:hover {
+        background-position-x: -107px;
+    }
+
+#rulesBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/rules.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #rulesBtn:hover {
+        background-position-x: -107px;
+    }
+
+#knowCampusBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/knowCampus.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #knowCampusBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד טיפים לקראת הקורס*/
+
+
+#prepareMantallyBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/prepareMantally.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #prepareMantallyBtn:hover {
+        background-position-x: -107px;
+    }
+
+#prepareOrientationBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/prepareOrientation.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #prepareOrientationBtn:hover {
+        background-position-x: -107px;
+    }
+
+.myAcor {
+    border: none;
+    border-radius: 0;
+    text-align: right;
+    font-size: 16px;
+    margin: auto;
+}
+
+    .myAcor p {
+        text-align: right;
+    }
+
+.nav-item {
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*פירורי לחם*/
+ul.breadcrumbs {
+    padding: 0px 4px;
+    list-style: none;
+    text-align: right;
+    margin-top: -15px;
+    margin-bottom: 13px;
+    color: #1d3666;
+    font-weight: bold;
+}
+
+    /* Display list items side by side */
+    ul.breadcrumbs li {
+        display: inline;
+        font-size: 15px;
+    }
+
+        /* Add a slash symbol (/) before/behind each list item */
+        ul.breadcrumbs li + li:before {
+            padding: 5px;
+            content: "/";
+            color: inherit !important;
+            font-weight: normal;
+        }
+
+        /* Add a color to all links inside the list */
+        ul.breadcrumbs li a {
+            color: #b23326;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+            /* Add a color on mouse-over */
+            ul.breadcrumbs li a:hover {
+                text-decoration: underline;
+            }
+
+/*עמוד הכרת הקמפוס*/
+#knowRoomBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/knowRoom.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #knowRoomBtn:hover {
+        background-position-x: -107px;
+    }
+
+#servicesBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/services.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #servicesBtn:hover {
+        background-position-x: -107px;
+    }
+
+#staffBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/staff.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #staffBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד הכרת החדר*/
+#room {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+#roomPic {
+    display: block;
+    /*margin: auto;*/
+    width: 462px;
+}
+
+.hotspotBtn {
+    width: 90px;
+    height: 80px;
+    background: url(/images/hotspot.png);
+    border: none;
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position-x: -58px;
+    position: absolute;
+}
+
+    .hotspotBtn:hover {
+        background-position-x: -170px;
+    }
+
+#bethroom {
+    right: 8%;
+    top: 28%;
+}
+
+#desk {
+    right: 40%;
+    top: 77%;
+}
+
+#bed {
+    right: 35%;
+    top: 20%;
+}
+
+.hotspotWin {
+    width: 50%;
+    padding: 20px 20px 0;
+    background-color: #eae9e7;
+    -webkit-box-shadow: 0px 6px 34px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 34px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 34px -11px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 3%;
+    right: 22%;
+    z-index: 98;
+    border-radius: 8px;
+    height: 580px;
+    overflow: auto;
+}
+
+/*פופאפ הוטספוט*/
+
+.hotspotPic {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.modal-header .close {
+    margin-left: 10px;
+    top: 16px;
+    opacity: 1;
+}
+
+    .modal-header .close:hover {
+        opacity: 1;
+    }
+
+.close {
+    opacity: 1;
+}
+
+    .close:hover {
+        opacity: 1;
+    }
+
+    .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+        /*color: #000;
+        text-decoration: none;*/
+        opacity: 1;
+    }
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal {
+    z-index: 2001;
+}
+
+/*.modal-content {
+    background-color: #eae9e7;
+    border: 2px solid #1D3666;
+}*/
+
+/*.modal-body, .modal-header {
+    padding: 5px;
+}
+*/
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    width: 80%;
+    text-align: right;
+    color: #1D3666;
+}
+
+.modal-body p {
+    text-align: right;
+    color: #1D3666;
+}
+
+/*עמוד תכני הקורס*/
+#equipmentBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/equipment.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #equipmentBtn:hover {
+        background-position-x: -107px;
+    }
+
+#handleBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/handle.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #handleBtn:hover {
+        background-position-x: -107px;
+    }
+
+#getDogBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/getDog.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #getDogBtn:hover {
+        background-position-x: -107px;
+    }
+
+#dailyTreatmentBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/dailyTreatment.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #dailyTreatmentBtn:hover {
+        background-position-x: -107px;
+    }
+
+#disciplineBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/discipline.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #disciplineBtn:hover {
+        background-position-x: -107px;
+    }
+
+#orientationBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/orientation.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #orientationBtn:hover {
+        background-position-x: -107px;
+    }
+
+#obstaclesBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/obstacles.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #obstaclesBtn:hover {
+        background-position-x: -107px;
+    }
+
+#distractionsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/distractions.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #distractionsBtn:hover {
+        background-position-x: -107px;
+    }
+
+#publicBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/public.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #publicBtn:hover {
+        background-position-x: -107px;
+    }
+
+#runningBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/running.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #runningBtn:hover {
+        background-position-x: -107px;
+    }
+
+#conditionsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/conditions.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #conditionsBtn:hover {
+        background-position-x: -107px;
+    }
+
+#clickerTrainingBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/clickerTraining.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #clickerTrainingBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד ציוד כלבני*/
+#leatherBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/leather.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #leatherBtn:hover {
+        background-position-x: -107px;
+    }
+
+#martingaleBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/martingale.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #martingaleBtn:hover {
+        background-position-x: -107px;
+    }
+
+#harnessBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/harness.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #harnessBtn:hover {
+        background-position-x: -107px;
+    }
+
+#tyingBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/tying.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #tyingBtn:hover {
+        background-position-x: -107px;
+    }
+
+#bowlBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/bowl.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #bowlBtn:hover {
+        background-position-x: -107px;
+    }
+
+#pouchBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/pouch.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #pouchBtn:hover {
+        background-position-x: -107px;
+    }
+
+#brushBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/brush.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #brushBtn:hover {
+        background-position-x: -107px;
+    }
+
+#carpetBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/carpet.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #carpetBtn:hover {
+        background-position-x: -107px;
+    }
+
+#waterwareBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/waterware.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #waterwareBtn:hover {
+        background-position-x: -107px;
+    }
+
+#gentleLeaderBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/gentleLeader.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #gentleLeaderBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+#vestBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/vest.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #vestBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+#cupBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/cup.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #cupBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+#whistleBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/whistle.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #whistleBtn:hover {
+        background-position-x: -107px;
+    }
+
+#clickerBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/clicker.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #clickerBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד קבלת הכלב וימים ראשונים*/
+#meetingBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/meeting.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #meetingBtn:hover {
+        background-position-x: -107px;
+    }
+
+#firstDaysBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/firstDays.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #firstDaysBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+
+/*עמוד טיפול יום יומי בכלב*/
+#feedingBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/feeding.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #feedingBtn:hover {
+        background-position-x: -107px;
+    }
+
+#pickUpBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/pickUp.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #pickUpBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד האכלה ושתייה*/
+.myBold {
+    font-weight: bold;
+}
+
+/*עמוד התמצאות ופקודות כיוון*/
+#straightLineBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/straightLine.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #straightLineBtn:hover {
+        background-position-x: -107px;
+    }
+
+#directionCommandsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/directionCommands.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #directionCommandsBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד פקודות כיוון*/
+
+.playDiv {
+    margin-bottom: 15px;
+    text-align: right !important;
+}
+
+.playTxt {
+    display: inline-block;
+    padding-left: 9px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+
+.playBtn {
+    display: inline-block;
+    width: 50px;
+    margin-top: 7px;
+    height: 45px;
+    background: url(/images/play2.png);
+    border: none;
+    background-size: 99px;
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+}
+
+    .playBtn:hover {
+        background-position-x: -51px;
+    }
+
+#startBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/start.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #startBtn:hover {
+        background-position-x: -91px;
+    }
+
+#forwardCommandBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/forwardCommand.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #forwardCommandBtn:hover {
+        background-position-x: -91px;
+    }
+
+#standBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/stand.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #standBtn:hover {
+        background-position-x: -91px;
+    }
+
+#slowBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/slow.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #slowBtn:hover {
+        background-position-x: -91px;
+    }
+
+#fastBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/fast.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #fastBtn:hover {
+        background-position-x: -91px;
+    }
+
+#turnRightBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/turnRight.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #turnRightBtn:hover {
+        background-position-x: -91px;
+    }
+
+#turnleftBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/turnleft.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #turnleftBtn:hover {
+        background-position-x: -91px;
+    }
+
+#backCommandBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/backCommand.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #backCommandBtn:hover {
+        background-position-x: -91px;
+    }
+
+#insideBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/inside.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #insideBtn:hover {
+        background-position-x: -91px;
+    }
+
+#asideBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/aside.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #asideBtn:hover {
+        background-position-x: -91px;
+    }
+
+audio {
+    filter: sepia(26%) saturate(70%) grayscale(1) contrast(99%) invert(100%);
+    vertical-align: middle;
+}
+
+/*עמוד מכשולים ותנועת רכבים*/
+#obstaclesWorkBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/obstaclesWork.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #obstaclesWorkBtn:hover {
+        background-position-x: -107px;
+    }
+
+#sidewalkBlockerBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/sidewalkBlocker.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #sidewalkBlockerBtn:hover {
+        background-position-x: -107px;
+    }
+
+#trafficBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/traffic.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #trafficBtn:hover {
+        background-position-x: -107px;
+    }
+
+
+
+/*עמוד הסחות דעת*/
+.liBtn {
+    width: 30px;
+    height: 30px;
+    background: url(/images/questionMark.png);
+    border: none;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 2px 1px;
+    vertical-align: middle;
+}
+
+    .liBtn:hover {
+        background-position-x: -31px;
+    }
+
+.definitionWin {
+    margin-top: 5%;
+}
+
+/*עמוד התהלכות במקומות ציבוריים*/
+#busBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/bus.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #busBtn:hover {
+        background-position-x: -107px;
+    }
+
+#trainBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/train.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #trainBtn:hover {
+        background-position-x: -107px;
+    }
+
+#taxiBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/taxi.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #taxiBtn:hover {
+        background-position-x: -107px;
+    }
+
+#flightBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/flight.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #flightBtn:hover {
+        background-position-x: -107px;
+    }
+
+#mallBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/mall.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #mallBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד הליכה בתנאים שונים*/
+#noSidewalkBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/noSidewalk.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #noSidewalkBtn:hover {
+        background-position-x: -107px;
+    }
+
+#darkWalkBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/darkWalk.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #darkWalkBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד החיים עם הכלב*/
+#backHomeBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/backHome.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #backHomeBtn:hover {
+        background-position-x: -107px;
+    }
+
+#supportBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/support.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #supportBtn:hover {
+        background-position-x: -107px;
+    }
+
+#dogInfoBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/dogInfo.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #dogInfoBtn:hover {
+        background-position-x: -107px;
+    }
+
+#vetTreatmentBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/vetTreatment.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #vetTreatmentBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד החזרה הביתה*/
+#backHomeMomentBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/backHomeMoment.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #backHomeMomentBtn:hover {
+        background-position-x: -107px;
+    }
+
+#homeVisitsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/homeVisits.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #homeVisitsBtn:hover {
+        background-position-x: -107px;
+    }
+/*עמוד קבלת תמיכה לאחר הקורס*/
+#mailBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/mail.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+#whatsAppBtn {
+    width: 79px;
+    height: 77px;
+    background: url(/images/whatsApp.png);
+    border: none;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+#mailTxt, #whatsAppTxt {
+    margin-bottom: -2px;
+}
+
+.connectImg {
+    width: 79px;
+}
+
+#mailLink {
+    color: #b23326;
+}
+
+/*עמוד מידע על הכלב*/
+#breedsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/breeds.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #breedsBtn:hover {
+        background-position-x: -107px;
+    }
+
+#dogSensesBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/dogSenses.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #dogSensesBtn:hover {
+        background-position-x: -107px;
+    }
+
+#dogCareBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/dogCare.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #dogCareBtn:hover {
+        background-position-x: -107px;
+    }
+
+#nutritionBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/nutrition.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #nutritionBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד גזעים*/
+#labradorBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/labrador.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #labradorBtn:hover {
+        background-position-x: -107px;
+    }
+
+#goldenBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/golden.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #goldenBtn:hover {
+        background-position-x: -107px;
+    }
+
+#mixedBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/mixed.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #mixedBtn:hover {
+        background-position-x: -107px;
+    }
+
+#germanShepherdBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/germanShepherd.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #germanShepherdBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד חושי הכלב*/
+#smellBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/smell.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #smellBtn:hover {
+        background-position-x: -107px;
+    }
+
+#hearingBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/hearing.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #hearingBtn:hover {
+        background-position-x: -107px;
+    }
+
+#sightBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/sight.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #sightBtn:hover {
+        background-position-x: -107px;
+    }
+
+#sinusBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/sinus.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #sinusBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד טיפול וטרינרי ומצבי חירום*/
+#phenomenaBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/phenomena.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #phenomenaBtn:hover {
+        background-position-x: -107px;
+    }
+
+#forbiddenFoodBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/forbiddenFood.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #forbiddenFoodBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*עמוד מזונות אסורים*/
+#chocolateBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/chocolate.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #chocolateBtn:hover {
+        background-position-x: -107px;
+    }
+
+#garlicOnionBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/garlicOnion.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #garlicOnionBtn:hover {
+        background-position-x: -107px;
+    }
+
+#grapesBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/grapes.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #grapesBtn:hover {
+        background-position-x: -107px;
+    }
+
+#milkBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/milk.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #milkBtn:hover {
+        background-position-x: -107px;
+    }
+
+#eggsMeatBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/eggsMeat.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #eggsMeatBtn:hover {
+        background-position-x: -107px;
+    }
+
+#liverBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/liver.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #liverBtn:hover {
+        background-position-x: -107px;
+    }
+
+#nutsBtn {
+    width: 99px;
+    height: 90px;
+    background: url(/images/nuts.png);
+    border: none;
+    background-size: 199px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+    #nutsBtn:hover {
+        background-position-x: -107px;
+    }
+
+/*חלון אודות*/
+#aboutBtn {
+    background: none;
+    border: none;
+    color: #b23326;
+    padding: 0;
+    height: 15px;
+}
+
+    #aboutBtn:hover {
+        border-bottom: 1px solid;
+    }
+
+.myLinks {
+    color: #b23326;
+    text-decoration: none;
+}
+
+    .myLinks:hover {
+        text-decoration: underline;
+        color: #b23326;
+    }
+
+#aboutWinH2 {
+    margin: auto;
+}
+
+#cloaseAbout {
+    right: 0;
+}
+
+#aboutWin .modal-body div {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#logoTLM, #logoGuideDog {
+    width: 105%;
+}
+
+
+.my6 {
+    padding: 0;
+}
+
+#aboutName {
+    font-size: 26px;
+    text-align: center;
+}
+
+#copy {
+    text-align: center;
+    margin-bottom: -5px;
+    font-size: 13px;
+    color: #1D3666;
+}
+
+#textGuideDog {
+    padding-top: 33px;
+}
+
+#aboutH2 {
+    font-size: 20px;
+    color: #1D3666;
+    margin: auto;
+}
+
+.aboutP {
+    color: #1D3666;
+    font-size: 16px;
+    text-align: center !important;
+}
+
+
+.myRight {
+    text-align: right !important;
+}
+
+.fixP {
+    margin-right: -15px;
+}
+/*תיקונים רספונסיבי*/
+/*@media screen and (min-width: 575px) {
+    #instructions {
+        margin-top: 200px;
+    }
+
+    .myRow {
+        padding-top: 5px;
+    }
+}*/
+
+#allEnter {
+    /*top: 8%;
+    transform: translateY(8%);*/
+}
+/*0-575*/
+@media screen and (max-width: 575px) {
+    #content {
+        direction: rtl;
+        color: #1d3666;
+        font-size: 21px;
+        position: fixed;
+        overflow-y: auto;
+        margin-top: 75px;
+        font-size: 21px;
+        padding-bottom: 0;
+    }
+
+    #SkipH1 {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    #instructions {
+        margin-top: 15px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+
+    #explaination {
+        font-size: 17px;
+    }
+
+    #logoEnter {
+        width: 200px;
+    }
+
+
+    #enterDiv {
+        width: 192px;
+        margin: auto;
+    }
+    .footer {
+        height: 50px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1030; /* Adjust z-index as needed */
+        background-image: url('/images/footer.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+
+    #topMenu {
+        background-image: url('/images/topMenu.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 70px;
+        padding-top: 5px;
+        padding-right: 5px;
+        z-index: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #EnterMenu, #arrows, .footer {
+        bottom: 19px;
+    }
+
+    a.skip:active,
+    a.skip:focus,
+    a.skip:hover {
+        width: 47%;
+    }
+
+    #roomPic {
+        width: 100%;
+    }
+
+    .hotspotWin {
+        width: 90%;
+        right: 5%;
+        height: 742px;
+    }
+
+    .definitionWin {
+        margin-top: 0;
+    }
+
+    #hitFooterP {
+        font-size: 3vw;
+        margin: auto;
+        color: #1D3666;
+    }
+
+    #hitFooter {
+        height: 19px;
+    }
+
+    #logoTLM, #logoGuideDog {
+        width: 30%;
+    }
+
+    .myRight {
+        text-align: center;
+    }
+
+    #almogAdi {
+        margin-bottom: 0;
+    }
+
+    #textGuideDog {
+        padding-top: 0;
+    }
+
+    .myTabs ul {
+        text-align: right;
+    }
+
+    #aboutWin .myRight {
+        text-align: center !important;
+    }
+}
+
+/*576-767*/
+@media (min-width: 576px) {
+    .down115 {
+        margin-bottom: 115px;
+    }
+
+    .down50 {
+        margin-bottom: 50px;
+    }
+
+    .down30 {
+        margin-bottom: 30px;
+    }
+
+    .footer, #EnterMenu, #arrows, #hitFooter, #topMenu, #enterTopMenu {
+        max-width: 540px;
+    }
+
+    #instructions {
+        margin-top: 200px;
+    }
+
+    .myRow {
+        padding-top: 5px;
+    }
+
+
+    #accessibilityDiv {
+        margin-top: -42px;
+    }
+
+    @media (max-height: 600px) {
+        /*#allEnter {
+            margin-top: 6%;
+        }*/
+
+        #logoEnter {
+            width: 170px;
+        }
+
+        #enterDiv {
+            width: 280px;
+        }
+
+        #name {
+            font-size: 44px;
+        }
+
+        #explaination {
+            font-size: 25.5px;
+        }
+    }
+}
+
+/*768-991*/
+@media (min-width: 768px) {
+    .footer, #EnterMenu, #arrows, #hitFooter, #topMenu, #enterTopMenu {
+        max-width: 720px;
+    }
+
+    #accessibilityDiv {
+        margin-top: 7px;
+    }
+
+    @media (max-height: 600px) {
+        /*#allEnter {
+            margin-top: 6%;
+        }*/
+
+        #logoEnter {
+            width: 170px;
+        }
+
+        #enterDiv {
+            width: 280px;
+        }
+
+        #name {
+            font-size: 44px;
+        }
+
+        #explaination {
+            font-size: 25.5px;
+        }
+    }
+}
+
+/*992-1199*/
+@media (min-width: 992px) {
+    .footer, #EnterMenu, #arrows, #hitFooter, #topMenu, #enterTopMenu {
+        max-width: 960px;
+    }
+
+    @media (max-height: 600px) {
+        /*#allEnter {
+            top: -3%;
+            transform: translateY(-3%);
+        }*/
+
+        #logoEnter {
+            width: 170px;
+        }
+
+        #enterDiv {
+            width: 280px;
+        }
+
+        #name {
+            font-size: 44px;
+        }
+
+        #explaination {
+            font-size: 25.5px;
+        }
+    }
+}
+
+/*1200-1520*/
+@media (min-width: 1200px) {
+    .footer, #EnterMenu, #arrows, #hitFooter, #topMenu, #enterTopMenu {
+        max-width: 1140px;
+    }
+
+    @media (max-height: 600px) {
+        /*#allEnter {
+            top: -8%;
+            transform: translateY(-8%);
+        }*/
+
+        #logoEnter {
+            width: 170px;
+        }
+
+        #enterDiv {
+            width: 280px;
+        }
+
+        #name {
+            font-size: 44px;
+        }
+
+        #explaination {
+            font-size: 25.5px;
+        }
+    }
+}
+
+/*1520- */
+@media (min-width: 1521px) {
+    #logoEnter {
+        width: 270px;
+        margin: auto;
+        display: block;
+        /*margin-top: 115px;*/
+        margin-bottom: 20px;
+    }
+
+    @media (max-height: 600px) {
+        /*#allEnter {
+            margin-top: 6%;
+        }*/
+
+        #logoEnter {
+            width: 170px;
+        }
+
+        #enterDiv {
+            width: 280px;
+        }
+
+        #name {
+            font-size: 44px;
+        }
+
+        #explaination {
+            font-size: 25.5px;
+        }
+    }
+    /*#allEnter {
+        margin-top: 0;
+    }*/
+}

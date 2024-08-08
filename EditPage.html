@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>מערכת ניהול - המרכז לכלבי נחייה</title>
+    <meta name="viewport" content="width=1024">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- CSS -->
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--<link href="Elearning/styles/myStyle.css" rel="stylesheet" />-->
+    <!--<script src="/Elearning/jScripts/jquery-2.1.1.min.js"></script>-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="Elearning/jScripts/javascript.js"></script>
+
+</head>
+<body id="bodyPlatform" onload="loadPageContent()">
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="HomePage.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="HomePage.html">דף הבית <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="AllProducts.html">לכל התוצרים</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Templates.html">תבניות</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MediaPage.html">ניהול מדיה</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="ml-md-auto text-center">
+            <span class="navbar-text mr-3">שלום admin</span>
+            <a class="nav-link" href="#" id="logoutLink">להתנתקות</a>
+        </div>
+    </nav>
+
+
+
+
+
+    <main>
+        <!--you can bind the page name or unit name - not a must-->
+        <h1 class="products">עריכת הלומדה</h1>
+    </main>
+
+
+
+    <div class="container-edit">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card card_edit double-height-card">
+                    <div class="card-body">
+
+                        <div class="unit-container"></div>
+
+                        <!--here-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="unit-success-message alert alert-success mt-2" role="alert" style="display: none">
+            העריכה הושלמה בהצלחה
+        </div>
+        <div class="unit-error-message alert alert-danger mt-2" role="alert" style="display: none">
+            נכשלה העריכה, אנא נסה שוב.
+        </div>
+        <button class="btn custom-enter-button btn-lg d-block mx-auto" onclick="onUnitEdit(event)" style="margin-top: 20px;">עריכת הלומדה</button>
+    </div>
+
+
+    <!--<div class="modal" id="imageModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Replace Image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="file" id="newImageInput" class="form-control-file" onchange="previewNewImage()">
+                    <img id="previewImage" class="img-fluid mt-2" style="display:none;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn custom-enter-button" onclick="replaceImage()">Replace Image</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeImageModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+
+
+
+
+    <footer class="footerPlatform text-center  text-white">
+        <div class="container">
+            <div class="text-center p-3" style="background-color: #D2D6D5">
+                <div class="row">
+                    <div class="col-md-6 text-md-right">
+                        <span class="mr-3 footer-item">אודות</span>
+                        <span class="mr-3 footer-item">לאתר הארגון</span>
+                    </div>
+                    <div class="col-md-6 text-md-left">
+                        <span class="footer-item">© תוצר זה פותח במסגרת תואר ראשון בפקולטה לטכנולוגיות למידה, HIT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
+
+

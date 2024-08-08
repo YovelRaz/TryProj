@@ -1,0 +1,736 @@
+﻿
+.media-item {
+    margin-bottom: 20px;
+}
+
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/otf/Heebo-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+a, button, .clickable, image {
+    cursor: pointer;
+}
+
+
+
+
+#bodyPlatform {
+   
+    background-color: #FFFDF9;
+   margin: 10px;
+    font-family: 'Heebo', sans-serif; /* Ensure fallback to sans-serif */
+   display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+  flex: 1; 
+}
+
+
+.logo {
+  margin-right: 20px;
+  max-width: 150px; 
+  height: auto;
+}
+
+
+.navbar {
+
+    width: 100%;
+    height: 60px; /* Adjusted for typical nav bar height */
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Center items vertically within the navbar */
+    justify-content: space-between; /* Space out nav items */
+    position: fixed; /* Make navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+
+
+/* Adjust margin for the nav items */
+.navbar-nav .nav-item {
+    color: #FBA000;
+    white-space: nowrap;
+margin-right: 20px;
+}
+
+    .navbar-nav .nav-item:last-child {
+        margin-right: 0; /* Adjust margin for the last nav item to prevent extra space */
+    }
+
+.navbar .navbar-nav .nav-link {
+    color: #FBA000; /* Default color for nav links */
+}
+
+.navbar .navbar-text {
+    color: #FBA000; /* Color for 'שלום admin' */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnTemplate{
+    padding-top:20px;
+    position:absolute;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+/*    padding: 15px;*/
+    background-color: #ffffff;
+}
+.card-header {
+    background-color: #ffffff;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.unit-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%; /* CHANGED */
+    width: 100%;
+    overflow: auto; /* Enable scrolling if content exceeds container */
+}
+
+.unit-container #content {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.unit-container #hitFooter {
+    margin: auto;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    /*  padding: 0;*/
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+/*    border: solid black 2px;*/
+}
+.card-title {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.card-img-top {
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+.img-fluid {
+    width: auto;
+    height: 80px;
+}
+.center-img {
+    margin: auto;
+   
+}
+
+.iframe-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.iframe-edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make iframe width 100% */
+  height: 100%; /* Make iframe height 100% */
+  max-width: 100%; /* Ensure the iframe doesn't exceed the card's width */
+  max-height: 100%; /* Ensure the iframe doesn't exceed the card's height */
+  border: none;
+}
+
+
+.card_edit {
+    justify-items: center;
+
+}
+
+.double-height-card {
+    height: 500px; /* Double the previous height (300px) */
+    width:100%;
+}
+
+
+
+.footerPlatform {
+    bottom: 0;
+    width: 100%;
+    background-color: #D2D6D5; /* Match background color */
+    padding: 5px 0.5;
+    left: 0;
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer-item {
+  margin-right: 20px; 
+}
+
+
+
+
+h1 {
+    color: #FBA000;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    h1.products {
+        margin-top: 100px;
+       
+    }
+
+.gradient-button {
+  margin: 10px;
+  background: linear-gradient(to right, #EBC891, #D4AF37);
+  border: none; /* Remove border */
+  width: 200px; /* Set button width */
+  height: 50px; /* Set button height */
+  font-size: 18px; /* Set font size */
+}
+
+.container img{
+  top: 200px;
+display: inline-block;
+}
+
+
+
+
+
+.dropdown.float-end {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #FBA000; 
+font-weight: bolder;
+font-size: 25px;
+}
+
+.dropdown-toggle::after {
+  display: none; /* Hide the arrow */
+}
+
+.template-card {
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+
+.plus-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    bottom: -50px;
+}
+
+
+.rounded-circle {
+  background-color: #FBA000; 
+  border: none;
+/*top: 56%;*/
+}
+
+.template-container {
+    margin-top: 85px;
+}
+
+.template-title {
+    text-align: center;
+    margin: 10px;
+}
+
+.editable {
+    cursor: pointer; /* Changes the cursor to a pointer (hand icon) */
+}
+
+
+.carousel-item .col-3 {
+    flex: 0 0 25%; /* Each column takes 25% of the carousel width */
+    max-width: 25%;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+
+/* Example to ensure arrows are visible */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: block;
+    width: 50px; /* adjust size as needed */
+    height: 50px; /* adjust size as needed */
+    background-size: 100%, 100%;
+}
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 8 8"%3E%3Cpath d="M5.5 0l-5 4 5 4V5H8V3H5.5V0z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 8 8"%3E%3Cpath d="M2.5 0v3H0v2h2.5v3l5-4-5-4z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        opacity: 1; /* Full visibility on hover */
+    }
+
+    /* Font Awesome specific styling */
+    .carousel-control-prev-icon i,
+    .carousel-control-next-icon i {
+        font-size: 2rem; /* Larger icon size */
+        color: #000; /* Icon color */
+    }
+
+
+
+
+.custom-enter-button {
+    background: linear-gradient(90deg, #FFD868, #FBA000);
+    color: #262626; /* Assuming you want a darker text */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 3px rgba(139, 69, 19, 10);
+    width: auto;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline if inherited from link styles */
+    margin:20px;
+    font-weight:600;
+}
+
+
+
+
+.card-middle {
+    position: relative; /* Allows absolute positioning within */
+    padding: 20px; /* Padding around content, might need adjustment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers the unit name vertically */
+    height: 100%; /* Takes full height of the card */
+    overflow: hidden; /* Ensures nothing spills outside the card */
+}
+
+.top-orange-line, .bottom-orange-line {
+    position: absolute; /* Positioned absolutely within card-middle */
+    height: 20px; /* Increased line thickness */
+    background-color: #F5B929; /* Orange color */
+    width: 100%; /* Span the full width */
+}
+
+.top-orange-line {
+    top: 0; /* Positioned at the very top */
+}
+
+.bottom-orange-line {
+    bottom: 0; /* Positioned at the very bottom */
+}
+
+.unit-name {
+    z-index: 1; /* Ensures it's above the lines */
+    position: relative; /* Needed to ensure it appears above the orange lines */
+    padding: 50px 0; /* Add padding to ensure text is not overlapped by the lines */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Bold font weight for visibility */
+}
+
+
+
+#shareButton {
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 13px !important; /* 10 pixels from the top */
+    left: 28px !important; /* 10 pixels from the left */
+    z-index: 1050; /* Higher than most other items, adjust if necessary */
+ 
+    padding: 5px 10px; /* Padding around the text or icon */
+    border-radius: 5px; /* Rounded corners */
+    width:40px;
+}
+
+    /* Optional: Style for the icon if using an <img> tag inside the button */
+    #shareButton img {
+        width: 20px; /* Adjust size as needed */
+    }
+
+.cardView {
+    border: 1px solid #dee2e6; /* Example: typical card border */
+    background-color: #fff; /* Standard card background color */
+    margin-bottom: 1rem; /* Space below the card */
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); /* Optional: shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 0.25rem; /* Rounded corners for the card */
+}
+
+.card-bodyView {
+    padding: 1rem; /* Padding inside the card body */
+    /* Apply additional styling as needed */
+}
+
+.card_edit, .ViewCard {
+    border: 2px solid #004085; /* Custom border style for your specific card classes */
+}
+.unit-container{
+    position:absolute;
+}
+
+.unit-container.ViewUnitContainer {
+    border: 1px solid #000; /* Example border for unit-container */
+}
+
+.unit-card {
+    border-width: 4px;
+    border-color: #AA8C2A !important;
+    background-color: #FCD362 !important;
+}
+
+.unit-card .card-body {
+    background-color: unset !important;
+}
+/* Ensuring the card body also has no visible styling */
+.card-bodyView {
+    background-color: transparent; /* Continues transparent background */
+    padding: 0; /* Adjust padding as needed */
+}
+/* Style for the cardView to make it invisible */
+.cardView {
+    border: none; /* Removes any border */
+    background-color: transparent; /* Makes the background transparent */
+    box-shadow: none; /* No shadow for a flat appearance */
+    padding: 0; /* Removes padding if not needed */
+}
+
+
+.cardView {
+    border: none; /* Assuming the original card style had a border */
+    background-color: #fff; /* Standard card background */
+    margin-bottom: 1rem; /* Space below the card */
+    padding: 20px; /* Padding inside the card */
+}
+
+
+.unit-container.ViewUnitContainer {
+    border: none; /* Example border for unit-container */
+}
+
+
+
+.gallery-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden; /* Hide overflow */
+    justify-content: center; /* Center the gallery items horizontally */
+    margin-bottom: 20px; /* Adjust margin bottom as needed */
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust margin between gallery items */
+    display: none; /* Hide all items by default */
+}
+
+    .gallery-item.active {
+        display: block; /* Show only the active items */
+    }
+
+.gallery-navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; /* Padding for the buttons */
+}
+.gallery-prev, .gallery-next {
+    border: none; /* Remove border */
+    cursor: pointer; /* Set cursor to pointer */
+    background-color: transparent; /* Transparent background */
+    color: #FBA000; /* Text color */
+    font-size: 5em; /* Font size */
+    padding: 10px; /* Padding */
+    border-radius: 50%; /* Make the button round */
+}
+
+    .gallery-prev:hover, .gallery-next:hover {
+        background-color: transparent; /* Transparent background on hover */
+        color: #FFC107; /* Text color on hover */
+    }
+
+    .gallery-prev:active, .gallery-next:active {
+        background-color: transparent; /* Transparent background when active (clicked) */
+        color: #FBA000; /* Text color when active (clicked) */
+    }
+
+    .gallery-prev:disabled, .gallery-next:disabled {
+        background-color: transparent; /* Transparent background for disabled state */
+        color: #ccc; /* Text color for disabled state */
+        cursor: not-allowed; /* Change cursor for disabled state */
+    }
+
+
+.gallery-prev {
+    margin-left: 20px; /* Adjust margin to push it from the left */
+}
+
+.gallery-next {
+    margin-right: 20px; /* Adjust margin to push it from the right */
+}
+
+
+
+
+
+
+
+
+
+.LogInlogo {
+   
+object-fit:contain;
+max-width:100%;
+}
+
+
+
+
+.Systemlogo {
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; /* Adjust the width as needed */
+    height: auto;
+}
+
+
+.opening {
+    width: 500px; /* Adjust the width and height to make a cube */
+    height: 300px; /* Adjust the width and height to make a cube */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+    .opening button {
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+.Category {
+    margin-bottom: 40px;
+}
+
+
+.dropdown-item:hover {
+    background-color: #FBA000;
+}
+
+.gallery-prev img {
+    width: 20px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.rm-bg {
+    background-color: unset !important;
+}
+
+.unit-all-pages-container{
+    margin-top: 85px;
+}
+
+#SettingsContainer {
+    display: flex;
+    justify-content: end;
+    margin-bottom:20px;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.navbar .ml-md-auto {
+    width: 185px
+}
+
+.navbar .navbar-brand {
+    width: 185px;
+}
+
+.navbar-nav > .nav-item {
+    margin-right: 0 !important;
+    margin-left: 20px;
+}
+
+.navbar-nav:last-child {
+    margin-left: 0 !important;
+}
+
+
+.template-title {
+    margin-bottom: 10px;
+}
+.card-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-title {
+    color: #FBA000;
+    font-weight: 800;
+}
+.form-label {
+    font-weight: 500;
+}
+
+
+.mediaTitle {
+    margin-top: 70px;
+}
+h5 {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px
+}
+
+.unit-success-message, .unit-error-message {
+    text-align: center; /* Center the text */
+   
+}
